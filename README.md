@@ -66,6 +66,11 @@ Want something a bit more complex, specify package install variables, don't want
 bash <(curl -sL git.io/swizzin) --env /path/to/your/env/file/here.env
 ```
 
+Want to install in appbox.co?
+```bash
+sudo -H su -c 'bash <(wget -O- -q https://raw.githubusercontent.com/swizzin/swizzin/master/setup.sh)'
+```
+
 ### Supported Operating Systems
 
 Long-term support branches only:
